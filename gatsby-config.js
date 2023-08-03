@@ -84,12 +84,20 @@ module.exports = {
         order: 3
       },
       {
+        slug: 'integrate/extensions-usage',
+        title: {
+          zh: '插件使用',
+          en: 'Extensions Usage'
+        },
+        order: 4
+      },
+      {
         slug: 'integrate/browser-extension',
         title: {
           zh: '浏览器插件',
           en: 'Browser Extension'
         },
-        order: 4
+        order: 5
       },
       {
         slug: 'develop/basic-design',
@@ -116,18 +124,34 @@ module.exports = {
         order: 6
       },
       {
-        slug: 'extension/opensumi-api',
+        slug: 'extension/develop',
         title: {
           zh: 'OpenSumi 插件开发',
-          en: 'OpenSumi Extension API'
+          en: 'Extension Develop'
         },
         order: 2
+      },
+      {
+        slug: 'extension/interface',
+        title: {
+          zh: 'OpenSumi API',
+          en: 'OpenSumi API'
+        },
+        order: 3
+      },
+      {
+        slug: 'extension/contributes',
+        title: {
+          zh: 'OpenSumi 贡献点',
+          en: 'OpenSumi Contribute Points'
+        },
+        order: 4
       }
     ],
     showDingTalkQRCode: true,
     showWeChatQRCode: true,
     weChatQRCode:
-      'https://img.alicdn.com/imgextra/i1/O1CN01jNQjmP1OXW4hj6p7s_!!6000000001715-2-tps-200-239.png',
+      'https://img.alicdn.com/imgextra/i4/O1CN01O3fD1D1GczvpZdaUy_!!6000000000644-0-tps-638-638.jpg',
     dingTalkQRCode:
       'https://img.alicdn.com/imgextra/i2/O1CN01Fcw6RC1T8qozkQBFG_!!6000000002338-2-tps-200-239.png',
     showSearch: true, // 是否展示搜索框
